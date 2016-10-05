@@ -10,6 +10,9 @@ main.Background{
 nav a{
     text-decoration: none;
 }
+h1.Titel{
+    color: rgb(255, 255, 255);
+}
 /*<!-- Begin Sport -->*/
 img.SportGroteFotos{
     width: 420px;

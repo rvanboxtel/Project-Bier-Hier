@@ -1,25 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
 @import 'https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
 
 body {
-
+    margin: 0;
+    padding: 0;
     font-family: 'Exo';
-}
-main.Background{
     background-color: rgb(51, 51, 51);
 }
-nav a{
+h1.nav{
+    background-color: #ff5409;
+    padding:0;
+    margin: 0;
+}
+nav {
+    background-color: #ff5409;
+}
+
+nav a {
     text-decoration: none;
+    color: black;
+    font-weight: 900;
 }
+
 /*<!-- Begin Sport -->*/
-img.SportGroteFotos{
-    width: 420px;
-    height: 300px;
+header.SportHeader {
+    background-color: #ff5409;
 }
-img.SportKleineFotos{
-    width: 278px;
+
+h1.Titel {
+    color: white;
+}
+
+img.SportGroteFotos {
+    width: 400px;
+    height: 200px;
+}
+
+img.SportKleineFotos {
+    width: 266px;
     height: 150px;
 }
-Section.FotosSport{
+
+Section.FotosSport {
     Width: 970px;
 }
+
+footer.SportFooter {
+    background-color: #ff5409;
+    margin:0;
+    padding:0;
+}
+
 /*<!-- Einde Sport -->*/

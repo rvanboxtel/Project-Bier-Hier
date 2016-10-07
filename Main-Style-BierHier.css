@@ -25,6 +25,9 @@ nav a {
     font-weight: 900;
 }
 
+h1.Titel{
+    color: rgb(255, 255, 255);
+}
 /*<!-- Begin Sport -->*/
 header.SportHeader {
     background-color: #ff5409;

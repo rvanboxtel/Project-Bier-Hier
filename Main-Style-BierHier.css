@@ -75,5 +75,32 @@ footer.SportFooter {
     margin:0;
     padding:0;
 }
-
 /* Einde Sport */
+/* Begin contact pagina */
+div.map
+{
+	float:left;
+	width:48%;
+	margin-right:2%;
+	height:500px;
+}
+
+iframe.map
+{
+	height:100%;
+	width:100%;
+	border:2px solid blue;
+}
+
+div.wrapper
+{
+	width:90%;
+	margin:auto;
+}
+
+article.contact
+{
+	float:right;
+	margin-left:2%;
+	width:48%;
+}

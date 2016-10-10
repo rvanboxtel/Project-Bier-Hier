@@ -5,16 +5,16 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
 }
 
+div.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
 body {
     font-family: 'Exo';
     margin: 0;
     padding: 0;
-        background-color: #ffef95;
-}
-h1.nav{
-    background-color: #ff5409;
-    padding:0;
-    margin: 0;
+    background-color: #ffd6b7;
 }
 
 nav a {
@@ -23,33 +23,53 @@ nav a {
     font-weight: 900;
 }
 
-/* Begin Concerten */
-div.Tabelconcerten{
-    width: 50%;
-    float:right;
+/* Begin Index */
+header.IndexHeader {
+    background: url("img/Headers/cans.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
 }
+
+header.IndexHeader nav a {
+    color: #ffffff;
+}
+
+/* Einde Index */
+
+/* Begin Concerten */
+div.Tabelconcerten {
+    width: 50%;
+    float: right;
+}
+
 div.grootimgconcert {
     width: 50%;
-    float:left;
+    float: left;
 }
+
 header.ConcertenHeader {
     background-color: #480498;
     width: 100%;
     height: 40%;
 }
-header nav {
-    background-color: #480498;
-}
+
 /* Einde Concerten */
 /* Begin Sport */
 header.SportHeader {
     background-color: #ff5409;
-    padding:0;
+    padding: 0;
     margin: 0;
 }
+
 Section.Sportrechtertext {
     width: 49%;
-    float:right;
+    float: right;
 }
 
 h1.Titel {
@@ -69,40 +89,40 @@ img.SportKleineFotos {
 
 Section.FotosSport {
     Width: 49%;
-    float:left;
+    float: left;
 }
 
 footer.SportFooter {
     background-color: #ff5409;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
+
 /* Einde Sport */
 /* Begin contact pagina */
-div.map
-{
-	float:left;
-	width:48%;
-	margin-right:2%;
-	height:500px;
+div.map {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    height: 500px;
 }
 
-iframe.map
-{
-	height:100%;
-	width:100%;
-	border:2px solid blue;
+iframe.map {
+    height: 100%;
+    width: 100%;
+    border: 2px solid blue;
 }
 
-div.wrapper
-{
-	width:90%;
-	margin:auto;
+article.contact {
+    float: right;
+    margin-left: 2%;
+    width: 48%;
+}
+/* Einde contact */
+/* Begin Recepten */
+
+main.Pink-Background {
+    background-color: #beffbb;
 }
 
-article.contact
-{
-	float:right;
-	margin-left:2%;
-	width:48%;
-}
+/* Einde Recepten */

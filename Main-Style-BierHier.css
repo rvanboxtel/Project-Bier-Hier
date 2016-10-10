@@ -100,20 +100,23 @@ footer.SportFooter {
 
 /* Einde Sport */
 /* Begin contact pagina */
-div.map {
+div.map
+{
     float: left;
     width: 48%;
     margin-right: 2%;
     height: 500px;
 }
 
-iframe.map {
-    height: 100%;
+iframe.map
+{
+    height: 500px;
     width: 100%;
     border: 2px solid blue;
 }
 
-article.contact {
+article.contact
+{
     float: right;
     margin-left: 2%;
     width: 48%;

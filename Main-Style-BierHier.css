@@ -39,7 +39,20 @@ header.IndexHeader {
 header.IndexHeader nav a {
     color: #ffffff;
 }
-
+header.ReceptenHeader {
+    background: url("img/recepten/aardbei.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
+}
+header.ReceptenHeader nav a {
+    color: #ffffff;
+}
 /* Einde Index */
 
 /* Begin Concerten */
@@ -121,8 +134,8 @@ article.contact {
 /* Einde contact */
 /* Begin Recepten */
 
-main.Pink-Background {
-    background-color: #beffbb;
+body.romy-Background {
+    background-color: #ddffd6;
 }
 
 /* Einde Recepten */

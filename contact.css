@@ -1,0 +1,42 @@
+div.wrapper
+{
+    width: 90%;
+    margin: auto;
+}
+
+body
+{
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+    background-image: url("img/contact/linnen.png");
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+div.map
+{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    height: 500px;
+}
+
+iframe.map
+{
+    height: 500px;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+article.contact
+{
+    float: right;
+    margin-left: 2%;
+    width: 48%;
+}

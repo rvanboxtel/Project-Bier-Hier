@@ -1,20 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Exo:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext';
+
 * {
     box-sizing: border-box;
-
-@import 'https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
-@import 'https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
 }
 
-div.wrapper {
-    width: 90%;
-    margin: auto;
+header {
+    max-height: 150px;
 }
-
 body {
-    font-family: 'Exo';
+    font-family: 'Exo', serif;
     margin: 0;
     padding: 0;
-    background-color: #ffd6b7;
 }
 
 nav a {
@@ -22,7 +18,9 @@ nav a {
     color: black;
     font-weight: 900;
 }
-
+main {
+    font-family: 'Raleway', serif;
+}
 /* Begin Index */
 header.IndexHeader {
     background: url("img/Headers/cans.jpg");
@@ -40,7 +38,7 @@ header.IndexHeader nav a {
     color: #ffffff;
 }
 header.ReceptenHeader {
-    background: url("img/recepten/aardbei.jpg");
+    background: url("img/recepten/cookies.jpg");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     padding-top: 60px;
@@ -105,28 +103,26 @@ Section.FotosSport {
     float: left;
 }
 
-footer.SportFooter {
-    background-color: #ff5409;
-    margin: 0;
-    padding: 0;
-}
 
 /* Einde Sport */
 /* Begin contact pagina */
-div.map {
+div.map
+{
     float: left;
     width: 48%;
     margin-right: 2%;
     height: 500px;
 }
 
-iframe.map {
-    height: 100%;
+iframe.map
+{
+    height: 500px;
     width: 100%;
     border: 2px solid blue;
 }
 
-article.contact {
+article.contact
+{
     float: right;
     margin-left: 2%;
     width: 48%;
@@ -139,3 +135,13 @@ body.romy-Background {
 }
 
 /* Einde Recepten */
+footer {
+    background-color: #808080;
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+}
+footer nav a{
+    color: white;
+    font-size: 15px;
+}

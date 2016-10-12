@@ -1,20 +1,20 @@
-ul
-{
-    padding:0;
-    margin:0;
+ul {
+    padding: 0;
+    margin: 0;
 }
-li
-{
-    border-top:1px solid white;
+
+li {
+    border-top: 1px solid white;
 
 }
-li a
-{
-    color:white;
-    text-decoration:none;
-    font-weight:700;
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
     font-size: 20px;
 }
+
 @media all and (min-width: 550px) {
     li {
         display: inline-block;
@@ -28,9 +28,29 @@ li a
         margin: auto;
         background-color: #ffd6b7;
     }
+
     div.wrapper1 {
         width: 550px;
         margin: auto;
+    }
+
+    section.LinkerArticle {
+        width: 540px;
+    }
+    section.MiddelsteArticle {
+        width: 540px;
+    }
+    section.RechtArticle {
+        width: 540px;
+    }
+    section.LinkerArticle img{
+        width: 539px;
+    }
+    section.MiddelsteArticle img{
+        width: 539px;
+    }
+    section.RechtArticle img {
+        width: 539px;
     }
 }
 
@@ -40,9 +60,29 @@ li a
         margin: auto;
         background-color: #ffd6b7;
     }
+
     div.wrapper1 {
         width: 920px;
         margin: auto;
+    }
+
+    section.LinkerArticle{
+        width: 305px;
+    }
+    section.RechtArticle {
+        width: 305px;
+    }
+    section.MiddelsteArticle{
+        width: 305px;
+    }
+    section.LinkerArticle img {
+        width: 304px;
+    }
+    section.MiddelsteArticle img {
+        width: 304px;
+    }
+    section.RechtArticle img {
+        width: 304px;
     }
 }
 
@@ -56,19 +96,40 @@ li a
         margin: auto;
         background-color: #ffd6b7;
     }
+
+    section.LinkerArticle, section.MiddelsteArticle, section.RechtArticle {
+        width: 399px;
+    }
+
     div.wrapper1 {
         width: 1200px;
         margin: auto;
     }
+
+    section.LinkerArticle img, section.MiddelsteArticle img, section.RechtArticle img {
+        width: 398px;
+    }
 }
+
 @media all and (min-width: 1500px) {
     div.wrapper {
-        width: 1400px;
+        width: 1500px;
         margin: auto;
         background-color: #ffd6b7;
     }
+
     div.wrapper1 {
-        width: 1400px;
+        width: 1500px;
         margin: auto;
     }
+
+    section.LinkerArticle, section.MiddelsteArticle, section.RechtArticle {
+        width: 499px;
+    }
+
+    section.LinkerArticle img, section.MiddelsteArticle img, section.RechtArticle img {
+        width: 498px;
+    }
 }
+
+/* Romek */

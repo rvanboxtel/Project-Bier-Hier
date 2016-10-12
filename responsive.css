@@ -28,6 +28,10 @@ li a
         margin: auto;
         background-color: #ffd6b7;
     }
+    div.wrapper1 {
+        width: 550px;
+        margin: auto;
+    }
 }
 
 @media all and (min-width: 920px) {
@@ -35,6 +39,10 @@ li a
         width: 920px;
         margin: auto;
         background-color: #ffd6b7;
+    }
+    div.wrapper1 {
+        width: 920px;
+        margin: auto;
     }
 }
 
@@ -48,11 +56,19 @@ li a
         margin: auto;
         background-color: #ffd6b7;
     }
+    div.wrapper1 {
+        width: 1200px;
+        margin: auto;
+    }
 }
 @media all and (min-width: 1500px) {
     div.wrapper {
         width: 1400px;
         margin: auto;
         background-color: #ffd6b7;
+    }
+    div.wrapper1 {
+        width: 1400px;
+        margin: auto;
     }
 }

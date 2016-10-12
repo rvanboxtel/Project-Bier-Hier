@@ -12,7 +12,18 @@ body {
     margin: 0;
     padding: 0;
 }
-
+body h1 {
+    font-family: 'Exo', serif;
+    font-size: 30px;
+}
+body h2 {
+    font-family: 'Exo', serif;
+    font-size: 25px;
+}
+article {
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+}
 nav a {
     text-decoration: none;
     color: black;
@@ -130,7 +141,7 @@ article.contact
 /* Einde contact */
 /* Begin Recepten */
 
-body.romy-Background {
+div.wrapper1 {
     background-color: #ddffd6;
 }
 
@@ -140,6 +151,8 @@ footer {
     color: white;
     padding-left: 50px;
     font-size: 20px;
+    max-height: 200px;
+    min-height: 200px;
 }
 footer nav a{
     color: white;

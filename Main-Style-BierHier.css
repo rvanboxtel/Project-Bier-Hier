@@ -62,6 +62,11 @@ header.ReceptenHeader {
 header.ReceptenHeader nav a {
     color: #ffffff;
 }
+article {
+    text-align: left;
+    padding-left: 10px;
+}
+
 /* Einde Index */
 
 /* Begin Concerten */
@@ -158,3 +163,4 @@ footer nav a{
     color: white;
     font-size: 15px;
 }
+/* Romek */

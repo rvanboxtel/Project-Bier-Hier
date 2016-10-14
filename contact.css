@@ -50,4 +50,26 @@ article.contact
     float: right;
     margin-left: 2%;
     width: 48%;
+	height: 500px;
+}
+
+div.form
+{
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+	margin: 10px;
+    height: 500px;
+}
+
+div.formgroup
+{
+	width: 75%;
+	padding: 10px;
+}
+
+input
+{
+	float: right;
+	width: 300px;
 }

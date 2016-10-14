@@ -57,18 +57,31 @@ div.form
 {
     float: left;
     width: 48%;
-    margin-right: 2%;
+    margin-left: 2%;
+	margin-top: 10px;
 	margin: 10px;
     height: 500px;
 }
 
 div.formgroup
 {
-	width: 75%;
+	width: 60%;
 	padding: 10px;
 }
 
 input
+{
+	float: right;
+	width: 300px;
+}
+
+input.submit
+{
+	float: right;
+	width: 100px;
+}
+
+textarea
 {
 	float: right;
 	width: 300px;

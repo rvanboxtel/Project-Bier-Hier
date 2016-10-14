@@ -8,7 +8,7 @@ header {
     max-height: 150px;
 }
 body {
-    font-family: 'Exo', serif;
+    font-family: 'Raleway', serif;
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,9 @@ body h1 {
 body h2 {
     font-family: 'Exo', serif;
     font-size: 25px;
+}
+body h3 {
+    font-family: 'Exo', serif;
 }
 article {
     font-family: 'Raleway', serif;
@@ -65,6 +68,15 @@ header.ReceptenHeader nav a {
 article {
     text-align: left;
     padding-left: 10px;
+}
+article.LinkerArticle{
+    float: left;
+}
+article.MiddelsteArticle{
+    float: middle;
+}
+article.RechtArticle{
+    float:right;
 }
 
 /* Einde Index */

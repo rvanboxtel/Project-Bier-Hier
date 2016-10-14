@@ -98,7 +98,7 @@ li a {
     }
 
     section.LinkerArticle, section.MiddelsteArticle, section.RechtArticle {
-        width: 399px;
+        width: 390px;
     }
 
     div.wrapper1 {
@@ -107,19 +107,39 @@ li a {
     }
 
     section.LinkerArticle img, section.MiddelsteArticle img, section.RechtArticle img {
-        width: 398px;
+        width: 389px;
     }
 }
 
 @media all and (min-width: 1500px) {
     div.wrapper {
-        width: 1500px;
+        width: 1480px;
         margin: auto;
         background-color: #ffd6b7;
     }
 
     div.wrapper1 {
-        width: 1500px;
+        width: 1480px;
+        margin: auto;
+    }
+
+    section.LinkerArticle, section.MiddelsteArticle, section.RechtArticle {
+        width: 420px;
+    }
+
+    section.LinkerArticle img, section.MiddelsteArticle img, section.RechtArticle img {
+        width: 419px;
+    }
+}
+@media all and (min-width: 1920px) {
+    div.wrapper {
+        width: 1900px;
+        margin: auto;
+        background-color: #ffd6b7;
+    }
+
+    div.wrapper1 {
+        width: 1900px;
         margin: auto;
     }
 

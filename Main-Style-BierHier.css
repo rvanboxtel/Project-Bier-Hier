@@ -101,11 +101,22 @@ header.ConcertenHeader {
 /* Einde Concerten */
 /* Begin Sport */
 header.SportHeader {
-    background-color: #ff5409;
-    padding: 0;
-    margin: 0;
+    background: url("img/Headers/sport.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
 }
-
+header.SportHeader nav a {
+    color: #ffffff;
+}
+div.wrapper{
+    background-color: lightsteelblue;
+}
 Section.Sportrechtertext {
     width: 49%;
     float: right;

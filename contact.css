@@ -50,3 +50,15 @@ div.form
 	margin: 10px;
     height: 500px;
 }
+
+div.formgroup
+{
+	width: 75%;
+	padding: 10px;
+}
+
+input
+{
+	float: right;
+	width: 300px;
+}

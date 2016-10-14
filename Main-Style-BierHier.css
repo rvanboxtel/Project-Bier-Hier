@@ -8,11 +8,26 @@ header {
     max-height: 150px;
 }
 body {
-    font-family: 'Exo', serif;
+    font-family: 'Raleway', serif;
     margin: 0;
     padding: 0;
 }
-
+body h1 {
+    font-family: 'Exo', serif;
+    font-size: 30px;
+}
+body h2 {
+    font-family: 'Exo', serif;
+    font-size: 25px;
+}
+body h3 {
+    font-family: 'Exo', serif;
+}
+body h4 {font-family: 'Exo', serif;}
+article {
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+}
 nav a {
     text-decoration: none;
     color: black;
@@ -51,6 +66,20 @@ header.ReceptenHeader {
 header.ReceptenHeader nav a {
     color: #ffffff;
 }
+article {
+    text-align: left;
+    padding-left: 10px;
+}
+article.LinkerArticle{
+    float: left;
+}
+article.MiddelsteArticle{
+    float: middle;
+}
+article.RechtArticle{
+    float:right;
+}
+
 /* Einde Index */
 
 /* Begin Concerten */
@@ -73,11 +102,22 @@ header.ConcertenHeader {
 /* Einde Concerten */
 /* Begin Sport */
 header.SportHeader {
-    background-color: #ff5409;
-    padding: 0;
-    margin: 0;
+    background: url("img/Headers/sport.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
 }
-
+header.SportHeader nav a {
+    color: #ffffff;
+}
+div.wrapper{
+    background-color: lightsteelblue;
+}
 Section.Sportrechtertext {
     width: 49%;
     float: right;
@@ -130,7 +170,7 @@ article.contact
 /* Einde contact */
 /* Begin Recepten */
 
-body.romy-Background {
+div.wrapper1 {
     background-color: #ddffd6;
 }
 
@@ -140,8 +180,11 @@ footer {
     color: white;
     padding-left: 50px;
     font-size: 20px;
+    max-height: 200px;
+    min-height: 200px;
 }
 footer nav a{
     color: white;
     font-size: 15px;
 }
+/* Romek */

@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 div.wrapper {
     width: 95%;
     margin: auto;
@@ -12,35 +13,46 @@ div.wrapper {
 header {
     max-height: 150px;
 }
+
 body {
     font-family: 'Raleway', serif;
     margin: 0;
     padding: 0;
 }
+
 body h1 {
     font-family: 'Exo', serif;
     font-size: 30px;
 }
+
 body h2 {
     font-family: 'Exo', serif;
     font-size: 25px;
 }
+
 body h3 {
     font-family: 'Exo', serif;
 }
-body h4 {font-family: 'Exo', serif;}
+
+body h4 {
+    font-family: 'Exo', serif;
+}
+
 article {
     font-family: 'Raleway', serif;
     font-size: 18px;
 }
+
 nav a {
     text-decoration: none;
     color: black;
     font-weight: 900;
 }
+
 main {
     font-family: 'Raleway', serif;
 }
+
 /* Begin Index */
 header.IndexHeader {
     background: url("img/Headers/cans.jpg");
@@ -62,13 +74,37 @@ article {
     text-align: left;
     padding-left: 10px;
 }
-article.LinkerArticle{
-    float: left;
+
+section.LinkerArticle {
+    font-size: 15px;
+    width: 30%;
+    display: inline-block;
 }
-article.MiddelsteArticle{
+
+section.MiddelsteArticle {
+    padding-left: 10px;
+    font-size: 15px;
+    width: 30%;
+    display: inline-block;
 }
-article.RechtArticle{
-    float:right;
+
+section.RechtArticle {
+    padding-right: 10px;
+    font-size: 15px;
+    width: 30%;
+    display: inline-block;
+}
+
+section.LinkerArticle img {
+    width: 100%;
+}
+
+section.MiddelsteArticle img {
+    width: 100%;
+}
+
+section.RechtArticle img {
+    width: 100%;
 }
 
 /* Einde Index */
@@ -103,6 +139,7 @@ header.SportHeader {
     min-height: 150px;
     text-align: center;
 }
+
 header.SportHeader nav a {
     color: #ffffff;
 }
@@ -132,65 +169,57 @@ Section.FotosSport {
     float: left;
 }
 
-
 /* Einde Sport */
 /* Begin contact pagina */
-div.map
-{
+div.map {
     float: left;
     width: 48%;
     margin-right: 2%;
     height: 500px;
 }
 
-iframe.map
-{
+iframe.map {
     height: 500px;
     width: 100%;
     border: 2px solid blue;
 }
 
-article.contact
-{
+article.contact {
     float: right;
     margin-left: 2%;
     width: 48%;
-	height: 500px;
-}
-
-div.form
-{
-    float: left;
-    width: 48%;
-    margin-left: 2%;
-	margin-top: 10px;
-	margin: 10px;
     height: 500px;
 }
 
-div.formgroup
-{
-	width: 60%;
-	padding: 10px;
+div.form {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    margin-top: 10px;
+    margin: 10px;
+    height: 500px;
 }
 
-input
-{
-	float: right;
-	width: 300px;
+div.formgroup {
+    width: 60%;
+    padding: 10px;
 }
 
-input.submit
-{
-	float: right;
-	width: 100px;
+input {
+    float: right;
+    width: 300px;
 }
 
-textarea
-{
-	float: right;
-	width: 300px;
+input.submit {
+    float: right;
+    width: 100px;
 }
+
+textarea {
+    float: right;
+    width: 300px;
+}
+
 /* Einde contact */
 /* Begin Recepten */
 header.ReceptenHeader {
@@ -224,8 +253,10 @@ footer {
     max-height: 200px;
     min-height: 200px;
 }
-footer nav a{
+
+footer nav a {
     color: white;
     font-size: 15px;
 }
+
 /* Romek */

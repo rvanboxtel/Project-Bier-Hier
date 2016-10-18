@@ -150,13 +150,6 @@ img {
         margin: auto;
     }
 
-    section.LinkerArticle, section.MiddelsteArticle, section.RechtArticle {
-        width: 499px;
-    }
 
-    section.LinkerArticle img, section.MiddelsteArticle img, section.RechtArticle img {
-        width: 498px;
-    }
-}
 
 /* Romek */

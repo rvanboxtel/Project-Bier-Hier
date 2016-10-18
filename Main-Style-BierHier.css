@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+div.wrapper {
+    width: 95%;
+    margin: auto;
+    background-color: lightsteelblue;
+}
+
 header {
     max-height: 150px;
 }
@@ -83,12 +89,12 @@ article.RechtArticle{
 
 /* Begin Concerten */
 div.Tabelconcerten {
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
 div.grootimgconcert {
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
@@ -114,9 +120,7 @@ header.SportHeader {
 header.SportHeader nav a {
     color: #ffffff;
 }
-div.wrapper{
-    background-color: lightsteelblue;
-}
+
 Section.Sportrechtertext {
     width: 49%;
     float: right;
@@ -205,6 +209,8 @@ textarea
 /* Begin Recepten */
 
 div.wrapper1 {
+    width: 95%;
+    margin: auto;
     background-color: #ddffd6;
 }
 

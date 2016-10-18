@@ -69,7 +69,6 @@ header.IndexHeader {
 header.IndexHeader nav a {
     color: #ffffff;
 }
-
 article {
     text-align: left;
     padding-left: 10px;
@@ -79,17 +78,18 @@ section.LinkerArticle {
     font-size: 15px;
     width: 30%;
     display: inline-block;
+    margin-left: 52px;
 }
 
 section.MiddelsteArticle {
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 15px;
     width: 30%;
     display: inline-block;
 }
 
 section.RechtArticle {
-    padding-right: 10px;
     font-size: 15px;
     width: 30%;
     display: inline-block;

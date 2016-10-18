@@ -244,6 +244,41 @@ div.wrapper1 {
     background-color: #ddffd6;
 }
 
+section.TekstLinks {
+    margin-right: 10px;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+}
+
+section.PlaatjesRechts {
+    width: 45%;
+    display: inline-block;
+    float: right;
+
+}
+
+img.plaatjeshomer {
+    padding-right: 30px;
+    padding-top: 30px;
+    width: 49%;
+    height: 49%;
+}
+
+footer.FooterRecepten {
+    background-color: #808080;
+    color: white;
+    padding-left: 50px;
+    font-size: 20px;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+footer.FooterRecepten nav a {
+    color: white;
+    font-size: 15px;
+}
+
 /* Einde Recepten */
 footer {
     background-color: #808080;

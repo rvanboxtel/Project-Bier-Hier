@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
 }
-
 div.wrapper {
     width: 95%;
     margin: auto;
@@ -58,20 +57,7 @@ header.IndexHeader {
 header.IndexHeader nav a {
     color: #ffffff;
 }
-header.ReceptenHeader {
-    background: url("img/recepten/aardbei.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    padding-top: 60px;
-    padding-left: 60px;
-    background-height: auto;
-    background-width: auto;
-    min-height: 150px;
-    text-align: center;
-}
-header.ReceptenHeader nav a {
-    color: #ffffff;
-}
+
 article {
     text-align: left;
     padding-left: 10px;
@@ -207,6 +193,21 @@ textarea
 }
 /* Einde contact */
 /* Begin Recepten */
+header.ReceptenHeader {
+    background: url("img/recepten/aardbei.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
+}
+
+header.ReceptenHeader nav a {
+    color: #ffffff;
+}
 
 div.wrapper1 {
     width: 95%;

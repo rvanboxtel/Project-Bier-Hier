@@ -292,6 +292,48 @@ section.PlaatjesRechts2 {
 
 }
 
+@media all and (min-width: 1200px) {
+    img.plaatjeshomer {
+        padding-right: 1%;
+        padding-top: 1%;
+        width: 49%;
+        height: 49%;
+    }
+
+    img.onderkantsite {
+        height: 15%;
+        width: 24%;
+        padding-left: 2%;
+    }
+
+    img.bord {
+        height: 50%;
+        width: 90%;
+        padding-top: 10%;
+    }
+}
+
+@media all and (min-width: 1500px) {
+    img.plaatjeshomer {
+        padding-right: 1%;
+        padding-top: 1%;
+        width: 44%;
+        height: 44%;
+    }
+
+    img.onderkantsite {
+        height: 1%;
+        width: 9%;
+        padding-left: 2%;
+    }
+
+    img.bord {
+        height: 35%;
+        width: 75%;
+        padding-top: 10%;
+    }
+}
+
 img.plaatjeshomer {
     padding-right: 1%;
     padding-top: 1%;

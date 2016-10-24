@@ -168,19 +168,21 @@ Section.Sportrechtertext {
     height: 90%;
 }
 
-h1.Titel {
+h1.SportTitle {
     font-family: 'Exo';
-    color: white;
+    padding-left: 1%;
 }
 
 img.SportGroteFotos {
     width: 45%;
     height: 25%;
+    padding-left: 2%;
 }
 
 img.SportKleineFotos {
     width: 30%;
     height: 20%;
+    padding-left: 2%;
 }
 
 Section.FotosSport {

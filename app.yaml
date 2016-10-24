@@ -5,9 +5,9 @@ api_version: 1
 threadsafe: yes
 
 handlers:
-- url: /(.+\.(html|css|gif|png|jpg|svg))$
+- url: /(.+\.(html|css|gif|png|jpg|svg|JPG))$
   static_files: \1
-  upload: .+\.(html|css|gif|png|jpg|svg)$
+  upload: .+\.(html|css|gif|png|jpg|svg|JPG)$
   application_readable: true
 
 - url: /.*

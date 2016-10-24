@@ -292,7 +292,7 @@ section.PlaatjesRechts2 {
 
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 550px) {
     img.plaatjeshomer {
         padding-right: 1%;
         padding-top: 1%;
@@ -317,29 +317,35 @@ section.PlaatjesRechts2 {
     img.plaatjeshomer {
         padding-right: 1%;
         padding-top: 1%;
-        width: 44%;
+        width: 40%;
         height: 44%;
     }
 
     img.onderkantsite {
-        height: 1%;
-        width: 9%;
+        height: 15%;
+        width: 24%;
         padding-left: 2%;
     }
 
     img.bord {
-        height: 35%;
-        width: 75%;
+        height: 10%;
+        width: 70%;
         padding-top: 10%;
+        padding-right: 6%;
+        float: right;
+    }
+
+    section.TekstLinks {
+        min-height: 700px;
     }
 }
 
-img.plaatjeshomer {
+/*img.plaatjeshomer {
     padding-right: 1%;
     padding-top: 1%;
     width: 45%;
     height: 45%;
-}
+}*/
 
 footer.FooterRecepten {
     background-color: #808080;
@@ -355,7 +361,7 @@ footer.FooterRecepten nav a {
     font-size: 15px;
 }
 
-img.onderkantsite {
+/*img.onderkantsite {
     height: 15%;
     width: 24%;
     padding-left: 2%;
@@ -365,7 +371,7 @@ img.bord {
     height: 50%;
     width: 90%;
     padding-top: 10%;
-}
+}*/
 
 /* Einde Recepten */
 footer {

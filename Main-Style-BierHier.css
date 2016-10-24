@@ -43,6 +43,10 @@ article {
     font-size: 18px;
 }
 
+header nav a {
+    color: white;
+}
+
 nav a {
     text-decoration: none;
     color: black;
@@ -64,6 +68,19 @@ header.IndexHeader {
     background-width: auto;
     min-height: 150px;
     text-align: center;
+}
+
+header.ContactHeader {
+    background: url("img/Headers/cans.jpg");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-height: auto;
+    background-width: auto;
+    min-height: 150px;
+    text-align: center;
+    color: white;
 }
 
 header.IndexHeader nav a {
@@ -147,6 +164,8 @@ header.SportHeader nav a {
 Section.Sportrechtertext {
     width: 49%;
     float: right;
+    display: inline-block;
+    height: 90%;
 }
 
 h1.Titel {
@@ -155,18 +174,19 @@ h1.Titel {
 }
 
 img.SportGroteFotos {
-    width: 400px;
-    height: 200px;
+    width: 45%;
+    height: 25%;
 }
 
 img.SportKleineFotos {
-    width: 266px;
-    height: 150px;
+    width: 30%;
+    height: 20%;
 }
 
 Section.FotosSport {
     Width: 49%;
     float: left;
+    display: inline-block;
 }
 
 /* Einde Sport */
@@ -176,12 +196,14 @@ div.map {
     width: 48%;
     margin-right: 2%;
     height: 500px;
+    padding-left: 2%;
 }
 
 iframe.map {
     height: 500px;
     width: 100%;
     border: 2px solid blue;
+    padding-left: 2%;
 }
 
 article.contact {
@@ -189,6 +211,7 @@ article.contact {
     margin-left: 2%;
     width: 48%;
     height: 500px;
+    padding-left: 2%;
 }
 
 div.form {
@@ -197,7 +220,8 @@ div.form {
     margin-left: 2%;
     margin-top: 10px;
     margin: 10px;
-    height: 500px;
+    height: 250px;
+    padding-left: 3%;
 }
 
 div.formgroup {
@@ -311,6 +335,20 @@ footer {
 footer nav a {
     color: white;
     font-size: 15px;
+}
+
+/*Bug Fixes */
+section.FixSectionSport {
+    min-height: 400px;
+}
+
+section.FixSectionContact {
+    min-height: 850px;
+    max-height: 900px;
+}
+
+h1.ContactFixH1 {
+    padding-left: 2%;
 }
 
 /* Romek */

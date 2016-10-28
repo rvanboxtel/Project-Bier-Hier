@@ -127,27 +127,7 @@ section.RechtArticle img {
 /* Einde Index */
 
 /* Begin Concerten */
-div.Tabelconcerten {
-    width: 45%;
-    float: right;
-}
 
-div.grootimgconcert {
-    width: 45%;
-    float: left;
-}
-
-header.ConcertenHeader {
-    background: url("img/Headers/concert.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    padding-top: 60px;
-    padding-left: 60px;
-    background-height: auto;
-    background-width: auto;
-    min-height: 150px;
-    text-align: center;
-}
 
 /* Einde Concerten */
 /* Begin Sport */

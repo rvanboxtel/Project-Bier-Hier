@@ -176,6 +176,8 @@ section.FotosSport {
 section.Uitslagsport {
     max-width: 65%;
     display: inline-block;
+    float: right;
+    padding-right: 20%;
 
 }
 

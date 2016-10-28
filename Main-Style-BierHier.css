@@ -126,10 +126,6 @@ section.RechtArticle img {
 
 /* Einde Index */
 
-/* Begin Concerten */
-
-
-/* Einde Concerten */
 /* Begin Sport */
 header.SportHeader {
     background: url("img/Headers/Sport.jpg");
@@ -175,6 +171,22 @@ Section.FotosSport {
     Width: 49%;
     float: left;
     display: inline-block;
+}
+
+section.Uitslagsport {
+    width: 65%;
+    display: inline-block;
+    float: right;
+
+}
+
+section.SportLinks {
+    margin-right: 10px;
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 2%;
+    min-height: 377px;
 }
 
 /* Einde Sport */
